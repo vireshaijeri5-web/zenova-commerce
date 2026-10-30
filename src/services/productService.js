@@ -1,6 +1,6 @@
-import fallbackProducts from "../data/fallbackProducts";
+import fallbackProducts from "../data/fallbackProducts.js";
 
-const apiUrl = import.meta.env.VITE_PRODUCTS_API || "https://dummyjson.com/products?limit=100";
+const apiUrl = import.meta.env?.VITE_PRODUCTS_API || "https://dummyjson.com/products?limit=100";
 const categoryMap = {
   smartphones: "Technology",
   laptops: "Technology",

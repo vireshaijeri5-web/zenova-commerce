@@ -945,6 +945,7 @@ body { background: var(--paper); color: var(--ink); }
 @media (max-width: 767px) {
   .wordmark { width: 150px; }
   .wordmark img { max-height: 42px; }
+  .account-link { display: none; }
   .auth-wordmark { width: 190px; }
   .auth-wordmark--mobile { display: inline-flex; margin-bottom: 20px; }
   .auth-aside > .auth-wordmark { display: none; }
